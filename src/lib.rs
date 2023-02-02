@@ -297,7 +297,7 @@ fn _short(uuid: &Uuid) -> String {
 
     // Generate the sentence and return it
     format!(
-        "{} {} by {} {} {}",
+        "{} {} {} {} {}",
         NAMES[words[0]], VERBS[words[1]], words[2], ADJECTIVES[words[3]], ANIMALS[words[4]],
     )
 }
